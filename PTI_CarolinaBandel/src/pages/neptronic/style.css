@@ -1,0 +1,523 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: #e9e6e6;
+}
+
+/* FAIXA 0 - HEADER */
+
+.secao-0 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+   
+    background-color: #513F29;
+}
+
+.secao-0 .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #513F29;
+    padding: 20px 100px;
+    width: 1200px;
+}
+
+.secao-0 .cabecalho .logo a {
+    font: 500 40px 'Elsie';
+    color: #E9CFB9;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.secao-0 .cabecalho .logo a:hover{
+    color: #E9CFB9;
+    opacity: 0.2;
+    transition: ease 0.5s;
+}
+
+.secao-0 .cabecalho .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.secao-0 .cabecalho .menu a {
+    font: 500 22px/110% 'Elsie';
+    color: #E9CFB9;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.secao-0 .cabecalho .menu a:hover{
+    color:#E9CFB9;
+    opacity:0.2;
+    transition: ease 0.5s;
+}
+
+/* FAIXA 1 */
+
+.ld {
+    position: absolute;
+    bottom: 0px;
+    right:20px;
+}
+
+.le {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+
+.secao-1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    padding: 50px 20px 30px 20px;
+    background-color: #1B1713;
+}
+
+.secao-1 .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 800px;
+    padding: 50px;
+}
+
+.secao-1 .conteudo .botoes {
+    display: flex;
+}
+
+.secao-1 .conteudo h1 {
+    font: 600 38px/100% 'Elsie';
+    color: #E9CFB9;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.secao-1 .conteudo p {
+    font: 400 18px/140% 'Roboto';
+    text-align: center;
+    color: #E9CFB9;
+}
+
+.botao-g {
+    color: #E9CFB9;
+    text-decoration: none;
+    background-color: #513F29;
+    padding: 12px 35px;
+    border-radius: 40px;
+
+    font: 500 18px 'Roboto';
+}
+
+.botao-g:hover {
+    color: #1B1713;
+    transition: ease 0.5s;
+}
+
+/* FAIXA 2 */
+
+.lb {
+    position: absolute;
+    top: 0px;
+    right:20px;
+}
+
+.secao-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    padding: 30px 0px;
+    background-color: #E9CFB9;
+}
+
+.secao-2 .foto {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:20px;
+}
+
+.secao-2 .foto .foto-cart {
+    height:400px;
+    border-radius:20px;
+    padding:10px;
+    margin:10px;
+}
+
+.secao-2 .foto .foto-cart:hover {
+    color: #eedecf;
+    opacity: 0.7;
+    transition: ease 0.5s;
+}
+
+.secao-2 .sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: #513F29;
+    width: 380px;
+}
+
+.secao-2 .sobre h1 {
+    font: 600 38px/100% 'Elsie';
+    color: #513F29;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.secao-2 .sobre p {
+    font: 15px/140% 'Roboto';
+    text-align: justify;
+}
+
+.secao-2 .sobre b {
+    font: 700 16px/140% 'Roboto';
+    color:#9C4830;
+}
+
+.secao-2 .sobre span {
+    color: #9C4830;
+    font: 700 14px 'Roboto';
+    word-spacing: 25px;
+    text-align:center;
+}
+
+/* FAIXA 3 */
+
+.id {
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.ie {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.secao-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    position: relative;
+    background-color: #513F29;
+    padding:100px 50px 100px 50px;
+}
+
+.secao-3 .valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+    background-color: #513F29;
+}
+
+.secao-3 .valores .precos {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.secao-3 .valores h1 {
+    font: 600 38px/100% 'Elsie';
+    color: #E9CFB9;
+    text-align: left;
+    letter-spacing: 3px; 
+}
+
+.secao-3 .valores h2 {
+    font: 600 23px/100% 'Elsie';
+    color: #1B1713;
+    text-align: left;
+    letter-spacing: 3px; 
+}
+
+.secao-3 .valores p {
+    font: 15px/140% 'Roboto';
+    text-align: left;
+    color: #E9CFB9;
+}
+
+.secao-3 .valores b {
+    font: 700 16px/140% 'Roboto';
+    color:#9C4830;
+}
+
+/* FAIXA 4 */
+
+.secao-4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap:20px;
+
+    padding: 50px 80px 50px 80px;
+    background-color: #1B1713;
+}
+
+.secao-4 .depoimentos h1 {
+    flex-direction: column;
+    font: 600 38px/100% 'Elsie';
+    color: #E9CFB9;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.secao-4 .depo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:30px;
+}
+
+.secao-4 .depo img:hover{
+    color: #eedecf;
+    opacity: 0.5;
+    transition: ease 0.5s;
+}
+
+.secao-4 .depo .sun {
+    height:230px;
+    padding:30px 60px;
+}
+
+.secao-4 .depo .star {
+    height: 230px;
+    padding:30px 60px;
+}
+
+.secao-4 .depo .moon {
+    height: 230px;
+    padding:30px 60px;
+}
+
+.secao-4 .depo .texto {
+    width:210px;
+    background-color: #1B1713;
+    padding:30px;
+}
+
+.secao-4 .depoimentos h2 {
+    font: 600 20px 'Elsie';
+    color: #9C4830;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.secao-4 .depoimentos h3 {
+    font: 600 15px 'Elsie';
+    color: #513F29;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.secao-4 .depoimentos p {
+    font: 15px 'Roboto';
+    text-align:left;
+    color: #E9CFB9;
+    padding:5px;
+    line-height: 19px;
+}
+
+/* FAIXA 5 */
+
+.timer {
+    position: absolute;
+    top:150px;
+    left:100px;
+}
+
+.secao-5 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    right:0;
+    position: relative;
+    padding: 30px 0px 100px 0px;
+    background-color: #E9CFB9;
+}
+
+.secao-5 .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.secao-5 .contato .chamado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-5 .contato h1 {
+    font: 600 38px 'Elsie';
+    color: #9C4830;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.secao-5 .contato .chamado p {
+    font: 15px 'Roboto';
+    text-align: center;
+    color: #513F29;
+}
+
+.secao-5 .contato .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width:500px;
+    padding:10px;
+}
+
+.secao-5 .contato .formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width:600px;
+    padding:10px;
+}
+
+.secao-5 .contato .formulario .form {
+    color: #E9CFB9;
+    text-transform: uppercase;
+    background-color: #513F29;
+    padding: 10px;
+    width: 500px;
+    border:none;
+    border-radius: 40px;
+    font: 500 14px 'Roboto';
+    text-align:center;
+}
+
+.secao-5 .contato .formulario .submit {
+    color: #E9CFB9;
+    text-decoration: none;
+    background-color: #1B1713;
+    padding: 10px 35px;
+    border:none;
+    border-radius: 40px;
+    width:200px;
+    font: 500 14px 'Roboto';
+}
+
+.secao-5 .contato .formulario .submit:hover {
+    color: #513F29;
+    transition: ease 0.5s;
+}
+
+.divider {
+    position: absolute;
+    bottom:0px;
+    float:center;
+}
+
+/* FAIXA 6: FOOTER */
+
+.secao-6 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 20px;
+    background-color: #E9CFB9;
+    margin-bottom:0px;
+}
+
+.secao-6 .footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.secao-6 .footer .despedida h3 {
+    font: 500 14px 'Roboto';
+    color:#513F29;
+}
+
+.secao-6 .socialmidia a{
+    padding:5px;
+    color:#9C4830;
+    font-size:30px;
+}
+
+.secao-6 .socialmidia a:hover{
+    padding:5px;
+    color:#1B1713;
+    font-size:30px;
+    transition: ease 0.5s;
+}
+
+.secao-6 .creditos h6 {
+    font: 500 12px 'Roboto';
+    text-align: center;
+    text-transform: uppercase;
+    color: #513F29;
+}
+
+
+/* FONT AWESOME */
+
+.fa-wand-sparkles {
+    margin-left:5px;
+}
+
+.fa-heart {
+    margin-left: 5px;
+    font-size:15px;    
+    color: #9C4830;
+}
+
+.fa-arrow-right-long {
+    font-size: 13px;
+}
+
+.fa-asterisk {
+    font-size:9px;
+    color: #1B1713;
+    padding:2px;
+}
+
+.fa-caret-right {
+    font-size:11px;
+    color:#1B1713;
+    padding:3px;
+}
+
+.fa-quote-left {
+    font-size:20px;
+    opacity: 0.5;
+    margin:0px 5px 5px 0;
+}

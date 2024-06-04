@@ -1,0 +1,57 @@
+/* PASSO A PASSO:
+
+1. baixar as fontes e colocar dentro dessa pasta: web standards/public/assets/fonts
+2. importar nesse arquivo conforme exemplo abaixo:
+
+@font-face {
+    font-family: 'nome da fonte';
+    src: url('/public/assets/fonts/nomedafonte.font');
+    font-weight: 00;
+}
+
+3. toda vez que for usar a fonte no CSS vai chamar pelo nome da fonte definido em font-family.
+
+*/
+
+
+@font-face {
+    font-family: 'r-light';
+    src: url('/public/assets/fonts/r-light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'r-regular';
+    src: url('/public/assets/fonts/r-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'r-medium';
+    src: url('/public/assets/fonts/r-medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'r-bold';
+    src: url('/public/assets/fonts/r-bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-regular';
+    src: url('/public/assets/fonts/e-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'e-bold';
+    src: url('/public/assets/fonts/e-bold.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
